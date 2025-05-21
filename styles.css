@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #111;
+  color: white;
+}
+h1, h2, h3, nav ul li a, .btn {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-color:  rgb(106, 13, 13);
+  padding: 20px;
+  text-align: center;
+  
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color:  rgb(106, 13, 13);
+}
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #070000;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(106, 13, 13);
+  color: rgb(210, 195, 195);
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 450px;
+  height: 450px;
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width:100%;
+  height: 400px;
+  object-fit: cover;
+  border-bottom: 2px solid red;
+}
+.card h3 {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+  color: rgb(199, 178, 178);
+}
+
+.card p {
+  padding: 0 10px 10px;
+  font-size: 14px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+.championship {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #e5d6d6;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #221d1d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #e10600; 
+  color: #e7dbdb;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #dacaca;
+}
+
+td:nth-child(1) {
+  font-weight: bold;
+}
+
+/* HERO sekcija na početnoj */
+.hero-section {
+  background: url('zoom.jpg') center/cover no-repeat;
+  padding: 60px 30px;
+  text-align: center;
+  color: rgb(243, 243, 243);
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 1000px;
+  box-shadow: 0 0 30px rgba(247, 14, 14, 0.39);
+}
+
+.hero-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-section .btn {
+  display: inline-block;
+  background-color: rgb(106, 13, 13);
+  color: rgb(231, 215, 215);
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero-section .btn:hover {
+  background-color: #c39e9e;
+  color:  rgb(106, 13, 13);
+}
+
+/* Preview sekcije */
+.preview-section {
+  max-width: 95%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 2fr; 
+  gap: 20px;
+}
+
+.preview-section h2 {
+  color: #e6dbdb;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.preview-section p {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.preview-section a {
+  color: #ff4c4c;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.preview-section a:hover {
+  color: #fff;
+}
+/* Kartica na početnoj */
+.home-card {
+background-color: #111;
+color: white;
+padding: 20px;
+border: 2px solid red;
+border-radius: 12px;
+box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+max-width: 900px;
+margin: 40px auto;
+text-align: center;
+min-height: 500px;
+}
+
+/* Slika unutar image-wrappera */
+.image-container {
+width: 100%;
+max-height: 300px;
+overflow: hidden;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+/* Slika se reže ako je prevelika */
+.card-image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+/* Link */
+.home-card a {
+display: inline-block;
+margin-top: 10px;
+color:  rgb(106, 13, 13);
+text-decoration: none;
+font-weight: bold;
+}
+
+.home-card a:hover {
+text-decoration: underline;
+}
+.home-cards-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
+}
+
+.home-card {
+flex: 1 1 400px;
+max-width: 450px; 
+}
+.f1-car-animation {
+position: absolute;
+top: 50%;
+left: -200px; /* Start izvan ekrana */
+transform: translateY(-50%);
+width: 150px;
+height: auto;
+opacity: 0.8;
+animation: car-drive 5s linear infinite;
+z-index: 0;
+}
+
+@keyframes car-drive {
+0% {
+  left: -200px;
+}
+50% {
+  opacity: 1;
+}
+100% {
+  left: 110%;
+}
+}
+
+header {
+position: relative; 
+overflow: hidden; 
+z-index: 1;
+}
+
+header h1 {
+position: relative;
+z-index: 2; /* Iznad bolida */
+}
+
+
+
+/* Za tablete (manji od 992px) */
+@media (max-width: 992px) {
+  .grid, .home-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card, .home-card {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .hero-section {
+    padding: 40px 20px;
+  }
+
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Za mobitele (manji od 576px) */
+@media (max-width: 576px) {
+  header {
+    padding: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .hero-section {
+    padding: 30px 15px;
+  }
+
+  .hero-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-section p {
+    font-size: 0.95rem;
+  }
+
+  .card h3, .preview-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .card p, .preview-section p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  table th, table td {
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+}
