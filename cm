@@ -1,0 +1,9 @@
+<html>
+<head><title>Pixels</title></head>
+<body>
+<script>if("browsingTopics"in document&&document.featurePolicy.allowsFeature("browsing-topics"))document.browsingTopics()</script>
+
+<img src="https://cm.g.doubleclick.net/pixel?google_nid=openx&google_hm=Zjc5NWQ1MjMtMWM0ZS0yNDZmLWVmOGUtYjE2NDIyNTRmYmM3">
+
+</body>
+</html>
